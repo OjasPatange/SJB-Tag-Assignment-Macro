@@ -5,6 +5,8 @@ build/*.xlsx
 *.xlsx
 # keep the test fixture (force-added below)
 !tests/fixtures/Sample_data.xlsx
+# keep the worked example workbook (input sheets + generated reports)
+!examples/SJB_Tag_Assignment_Generator.xlsx
 
 # --- Excel lock / temp files ---
 ~$*

@@ -14,6 +14,7 @@ sjb-tag-assignment/
 ├── src/            exported VBA modules (.bas / .cls) — tracked
 ├── tools/          export/import round-trip scripts
 ├── tests/          Python replica harness + fixtures
+├── examples/       worked input/output workbook (how reports are generated)
 ├── docs/           error log, changelog, corrective-action decisions
 ├── build/          .xlsm output (git-ignored)
 ├── requirements.txt
@@ -41,7 +42,8 @@ python tools/import_vba.py path/to/PCD_For_TA.xlsm --src src
 4. Implement the change in `src/`, re-import, tag the version.
 
 ## Status
-- **v14** — submitted, nine errors found (`docs/v14_error_log.md`).
+- **v14** — code in `src/SJB_Tag_Assignment.bas`; nine errors found
+  (`docs/v14_error_log.md`); worked example in `examples/`.
 - **v15** — pending five corrective-action decisions (`docs/corrective_actions.md`).
 
 ## Setup
