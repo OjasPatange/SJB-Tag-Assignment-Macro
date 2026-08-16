@@ -1,0 +1,29 @@
+# --- Excel binaries (treated as build artifacts, not source) ---
+build/*.xlsm
+build/*.xlsx
+*.xlsm
+*.xlsx
+# keep the test fixture (force-added below)
+!tests/fixtures/Sample_data.xlsx
+
+# --- Excel lock / temp files ---
+~$*
+*.tmp
+
+# --- Generated assignment reports ---
+build/reports/
+*_report.xlsx
+*_report.csv
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

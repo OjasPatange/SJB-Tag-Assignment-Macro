@@ -1,0 +1,3 @@
+oletools>=0.60      # VBA extraction (export_vba.py)
+openpyxl>=3.1       # reading .xlsx fixtures in replicas
+pywin32>=306 ; platform_system == "Windows"   # VBA re-import (import_vba.py)
